@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+        integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/8913a5c2b2.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: 100%;
+        }
+
+        .wrapper {
+            width: 100%;
+        }
+
+        img {
+            image-rendering: pixelated;
+        }
+
+        /************************************************************* Navigation *******************************************************/
+        .fontA {
+            text-decoration: none;
+        }
+
+        .fontA a {
+            color: rgb(115, 238, 14);
+            font-size: 18px;
+            line-height: 1.5;
+            margin-top: 4px;
+            font-weight: 300;
+        }
+
+        .fontA a:hover {
+            background-color: rgb(115, 238, 14);
+            color: #000000;
+        }
+
+        .header-font {
+            font-size: 44px !important;
+            color: #FFFFFF;
+            line-height: 1.5;
+            letter-spacing: 1px;
+            margin-right: 25px;
+            font-family: 'Roboto', sans-serif !important;
+        }
+
+        .header-font2 {
+            font-size: 30px;
+            color: rgb(115, 238, 14);
+            line-height: 1.5;
+        }
+
+        /********************************************************* sections *********************************************************/
+        .first {
+            margin-top: 100px;
+        }
+
+        .first a {
+            color: #000000;
+            font-size: 11px;
+            line-height: 1.5;
+            font-weight: 900;
+            text-decoration: none;
+        }
+
+        .first a:hover {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+        .second {
+            margin-top: 200px;
+        }
+
+
+        .second a {
+            color: #000000;
+            font-size: 11px;
+            line-height: 1.5;
+            font-weight: 900;
+            text-decoration: none;
+        }
+
+
+        .second a:hover {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+        .text1 {
+            color: white;
+            font-size: 40px;
+            line-height: 1.5;
+            margin-top: 110px;
+            font-weight: 900;
+        }
+
+        .text2 {
+            margin-top: 90px;
+            color: white;
+            font-size: 40px;
+            line-height: 1.5;
+            font-weight: 900;
+        }
+
+        .text3 {
+            margin-top: 500px;
+            color: white;
+            font-size: 40px;
+            line-height: 1.5;
+            font-weight: 900;
+        }
+
+        .text4 {
+            margin-top: 60px;
+            color: white;
+            font-size: 40px;
+            line-height: 1.5;
+            font-weight: 900;
+        }
+
+        .text5 {
+            padding-top: 120px;
+            color: white;
+            font-size: 40px;
+            line-height: 1.5;
+            font-weight: 900;
+        }
+
+        .go1 {
+            padding: 30px;
+            background-image: url(images/circle-cropped.png);
+            background-size: cover;
+            border-width: 1px;
+            border-color: #000000;
+            border-radius: 50%;
+        }
+
+        .responsive-iframe {
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body style="background-image: linear-gradient(90deg,#000000, #000000);">
+
+    <!--************************************************************* Navigation *******************************************************-->
+    <header>
+        <nav class=" navbar navbar-expand-md fontA">
+            <div class=" container-fluid">
+                <a class="header-font" href="#">GYM</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon">
+                        <i class="fa fa-navicon" style=" color: rgb(115, 238, 14); font-size:28px;"></i>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav justify-content-between w-100">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#C1">CALISTHENICS</a>
+                        </li>
+                        <li class="nav-item header-font2">|</li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#C2">AEROBICS</a>
+                        </li>
+                        <li class="nav-item header-font2">|</li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#C3">CYCLING</a>
+                        </li>
+                        <li class="nav-item header-font2">|</li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#C4">SWIMMING</a>
+                        </li>
+                        <li class="nav-item header-font2">|</li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#C5">STRENGTH TRAINING</a>
+                        </li>
+                        <li class="nav-item header-font2">|</li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#C6">YOGA</a>
+                        </li>
+                        <li class="nav-item header-font2">|</li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="page2.html" target="_blank">GO TO PLANETS</a>
+                        </li>
+                        <li class="nav-item header-font2">|</li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="page3.php" target="_blank">GO TO DOGS</a>
+                        </li>
+                        <li class="nav-item header-font2">|</li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://portfolio.yamiet08.webfactional.com/" target="_blank">GO
+                                BACK</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--********************************************************* End Navigation *******************************************************-->
+
+
+    <!--********************************************************* Calisthenics *********************************************************-->
+    <div class="container">
+        <div class="row first" id="C1">
+            <div class="col-md-8">
+                <figure>
+                    <img src="images/calisthenics.png" alt="calisthenics image" class="img-fluid">
+                </figure>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-3" style="text-align:center;">
+                <p class="text1">30 Day<br>Workout<br>Plan</p><br><br>
+                <p><a href="#" target="_self" class="go1 img-fluid">GO</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!--********************************************************* End Calisthenics *****************************************************-->
+
+
+    <!--********************************************************* Aerobics *********************************************************-->
+    <div class="container">
+        <div class="row second" id="C2">
+            <div class="col-md-1"></div>
+            <div class="col-md-3" style="text-align:center;">
+                <p class="text2">90 Day<br>Workout<br>Plan</p><br><br>
+                <p><a href="#" target="_self" class="go1">GO</a></p><br><br>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-7">
+                <figure>
+                    <img src="images/aerobics.png" alt="aerobics image" class="img-fluid">
+                </figure>
+            </div>
+        </div>
+    </div>
+
+    <!--********************************************************* End Aerobics *********************************************************-->
+
+
+    <!--************************************************************ Cycling ***********************************************************-->
+    <div class="container">
+        <div class="row second" id="C3">
+            <div class="col-md-7">
+                <figure>
+                    <img src="images/cycling.png" alt="cycling image" class="img-fluid">
+                </figure>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-3" style="text-align:center;">
+                <p class="text3">365 Day<br>Workout<br>Plan</p><br><br>
+                <p><a href="#" target="_self" class="go1">GO</a></p>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+    <!--********************************************************* End Cycling *********************************************************-->
+
+
+    <!--*********************************************************** Swimming **********************************************************-->
+    <div class="container">
+        <div class="row second" id="C4">
+            <div class="col-md-3" style="text-align:center;">
+                <p class="text4">2 Week<br>Workout<br>Plan</p><br><br>
+                <p><a href="#" target="_self" class="go1">GO</a></p><br><br>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-8">
+                <figure>
+                    <img src="images/swimming.png" alt="swimming image" class="img-fluid">
+                </figure>
+            </div>
+        </div>
+    </div>
+
+    <!--********************************************************* End Swimming *********************************************************-->
+
+
+    <!--******************************************************** Strength training ******************************************************-->
+    <div class="container">
+        <div class="row second" id="C5">
+            <div class="col-md-8">
+                <iframe class="responsive-iframe" src="https://www.youtube.com/embed/YvrKIQ_Tbsk"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-3" style="text-align:center;">
+                <p class="text5">60 Day<br>Workout<br>Plan</p><br><br>
+                <p><a href="#" target="_self" class="go1">GO</a></p><br><br>
+            </div>
+        </div>
+    </div>
+
+    <!--******************************************************* End  Strength training *********************************************************-->
+
+
+    <!--*************************************************************** Yoga  ******************************************************************-->
+    <div class="container">
+        <div class="row second" id="C6">
+            <div class="col-md-3" style="text-align:center;">
+                <p class="text1">6 month<br>Workout<br>Plan</p><br><br>
+                <p><a href="#" target="_self" class="go1">GO</a></p><br><br>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-8">
+                <figure>
+                    <img src="images/yoga.png" alt="yoga image" class="img-fluid">
+                </figure>
+            </div>
+        </div>
+    </div>
+
+    <!--************************************************************* End Yoga  ****************************************************************-->
+
+
+    <!--************************************************************** Footer ******************************************************************-->
+    <div class="container">
+        <div class="row second">
+            <div class="col-md-12 justify-content-between w-100">
+                <iframe class="responsive-iframe"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3443.319252576209!2d-81.65639658511286!3d30.341875511415754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e5b7f9860dac39%3A0xb2f5399f031e9d!2sJax%20Code%20Academy%2C%20Inc.!5e0!3m2!1sen!2sus!4v1590853157439!5m2!1sen!2sus"
+                    style="border:0; height: 300px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!--************************************************************* End Footer ***************************************************************-->
+
+
+    <!--*********************************************************** Bootsrap 4 scripts ************************************************************-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
